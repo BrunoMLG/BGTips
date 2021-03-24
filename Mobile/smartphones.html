@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <base href="file:///C:/Users/hlbgo/OneDrive/School/Licenciatura/TI1/Website/Pag/index.html">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title> Smartphones | Bruno e Gonçalo Tips </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheetmobile.css">
+    </head>
+    
+    <body class="w3-container w3-center w3-animate-bottom">
+        <div class="main">
+            <div class="topnav">
+              <a href="index.html" class="active" style="text-align: left;"><img src="images/logo_no_border.png" style="width: 4%; "></a>
+              <!-- Navigation links (hidden by default) -->
+              <div id="myLinks">
+                <a href="computadores.html">Computadores</a>
+                <a href="smartphones.html">Smartphones</a>
+                <a href="sobre.html">Sobre</a>
+                <a onclick="darkmode()" href="javascript:void(0)">Modo Noturno</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+                <i class="fa fa-bars"></i>
+              </a> 
+            </div>
+           
+        </div>
+        <h1><b>Smartphones</b></h1><br />
+        <br />
+        <div class="dropdown">
+            <button onclick="dropdowns('d1')" class="dropbtn">Telemóvel lento.</button>
+            <div id="d1" class="dropdown-content">
+            <a href="mobile/solucoes_smartphones.html#lento1">Limpar o armazenamento.</a>
+            <a href="mobile/solucoes_smartphones.html#lento2"> Guardar a informação desnecessária noutro local.</a>
+            </div><br/><br/>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdowns('d2')" class="dropbtn">Pouca duração de bateria.</button>
+            <div id="d2" class="dropdown-content">
+            <a href="mobile/solucoes_smartphones.html#bat1">Diminuir o brilho.</a>
+            <a href="mobile/solucoes_smartphones.html#bat2"> Ativar o modo de poupança.</a>
+            </div><br/><br/>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdowns('d3')" class="dropbtn">Armazenamento cheio.</button>
+            <div id="d3" class="dropdown-content">
+            <a href="mobile/solucoes_smartphones.html#arm1">Limpeza de ficheiros.</a>
+            <a href="mobile/solucoes_smartphones.html#arm2">Transferência de ficheiros.</a>
+            </div><br/><br/>
+        </div>
+        
+        
+        <script type="text/javascript" src="javaScript.js"></script>
+         <script type="text/javascript" src="javaScriptmobile.js"></script>
+    </body>
+    
+    <footer>
+    Made by Bruno e Gonçalo ©  </footer>
+</html>

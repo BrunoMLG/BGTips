@@ -1,0 +1,267 @@
+#passo1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#passo1:hover {opacity: 0.7;}
+
+#passo2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#passo2:hover {opacity: 0.7;}
+
+
+#passo3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#passo3:hover {opacity: 0.7;}
+
+#relogio {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#relogio:hover {opacity: 0.7;}
+
+#internetico {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#internetico:hover {opacity: 0.7;}
+
+#acertarHora {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#acertarHora:hover {opacity: 0.7;}
+
+#definicoeshora {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#definicoeshora:hover {opacity: 0.7;}
+
+#drivers {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#drivers:hover {opacity: 0.7;}
+
+#cabo {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#cabo:hover {opacity: 0.7;}
+
+#tv {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#tv:hover {opacity: 0.7;}
+
+#grafica {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#grafica:hover {opacity: 0.7;}
+
+#cabo {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#cabo:hover {opacity: 0.7;}
+
+#virus {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#virus:hover {opacity: 0.7;}
+
+#desinstalar {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#desinstalar:hover {opacity: 0.7;}
+
+#limdisco {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#limdisco:hover {opacity: 0.7;}
+
+#defrag {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#defrag:hover {opacity: 0.7;}
+
+#formatar {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#formatar:hover {opacity: 0.7;}
+
+#limpeza {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#limpeza:hover {opacity: 0.7;}
+
+/*smartphones*/
+
+#limpmem {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#limpmem:hover {opacity: 0.7;}
+
+#drive {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#drive:hover {opacity: 0.7;}
+
+#notificacoes {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#notificacoes:hover {opacity: 0.7;}
+
+#poupar {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#poupar:hover {opacity: 0.7;}
+
+#mover {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#mover:hover {opacity: 0.7;}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}

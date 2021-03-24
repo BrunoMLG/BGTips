@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <base href="file:///C:/Users/hlbgo/OneDrive/School/Licenciatura/TI1/Website/Pag/index.html">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title> Computadores | Bruno e Gonçalo Tips </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheetmobile.css">
+    </head>
+    
+    <body class="w3-container w3-center w3-animate-bottom">
+        <div class="main">
+             <div class="topnav">
+              <a href="index.html" class="active" style="text-align: left;"><img src="images/logo_no_border.png" style="width: 4%; "></a>
+              <!-- Navigation links (hidden by default) -->
+              <div id="myLinks">
+                <a href="computadores.html">Computadores</a>
+                <a href="smartphones.html">Smartphones</a>
+                <a href="sobre.html">Sobre</a>
+                <a onclick="darkmode()" href="javascript:void(0)">Modo Noturno</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+                <i class="fa fa-bars"></i>
+              </a> 
+            </div>
+        </div>
+        <h1><b>Computadores</b></h1><br />
+        <br />
+        
+        <div class="dropdown">
+            <button onclick="dropdowns('d1')" class="dropbtn">Não consigo aceder a Internet.</button>
+            <div id="d1" class="dropdown-content">
+            <a href="mobile/solucoes_pc.html#int1">Verificar se esta conectado a rede.</a>
+            <a href="mobile/solucoes_pc.html#int2"> Atualizar a data.</a>
+            <a href="mobile/solucoes_pc.html#int3">Atualizar os drivers.</a>
+            </div><br/><br/>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdowns('d2')" class="dropbtn">O PC não dá vídeo.</button>
+            <div id="d2" class="dropdown-content">
+            <a href="mobile/solucoes_pc.html#vid1">Verificar os cabos.</a>
+            <a href="mobile/solucoes_pc.html#vid2">Verificar se o monitor esta a funcionar.</a>
+            <a href="mobile/solucoes_pc.html#vid3">Verificar se a placa de vídeo esta conectada corretamente.</a>
+            </div><br/><br/>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdowns('d3')" class="dropbtn">O PC esta lento.</button>
+            <div id="d3" class="dropdown-content">
+            <a href="mobile/solucoes_pc.html#len1">Verificar a existência de vírus.</a>
+            <a href="mobile/solucoes_pc.html#len2">Desativar/desinstalar programas.</a>
+            <a href="mobile/solucoes_pc.html#len3">Fazer uma limpeza ao disco.</a>
+            <a href="mobile/solucoes_pc.html#len4">Desfragmentar o disco.</a>
+            <a href="mobile/solucoes_pc.html#len5">Formatar o computador</a>
+            <a href="mobile/solucoes_pc.html#len6">Limpar o computador</a>
+            </div><br/><br/>
+        </div>
+         <script type="text/javascript" src="javaScript.js"></script>
+         <script type="text/javascript" src="javaScriptmobile.js"></script>
+    </body>
+    
+    <footer>
+    Made by Bruno e Gonçalo ©  </footer>
+</html>

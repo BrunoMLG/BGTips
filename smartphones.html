@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title> Smartphones | Bruno e Gonçalo Tips </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script>
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            window.location.href = "Mobile/smartphones.html";
+            }
+        </script>
+    </head>
+    
+    <body class="w3-container w3-center w3-animate-bottom">
+        <div class="main">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li class="float" ><a onclick="darkmode()" href="javascript:void(0)">Modo Noturno</a></li>
+                        <li class="logo"><a href="index.html"><img src="images/logo.png"></a></li>
+                        <li class="float"><a href="sobre.html">Sobre</a></li>
+                        <li class="float"><a href="smartphones.html">Smartphones</a></li>
+                        <li class="float"><a href="computadores.html">Computadores</a></li>
+                        <li class="float"><a href="index.html">Início</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+           
+        </div>
+        <h1><b>Smartphones</b></h1><br />
+        <br />
+        <div class="dropdown">
+            <button onclick="dropdowns('d1')" class="dropbtn">Telemóvel lento.</button>
+            <div id="d1" class="dropdown-content">
+            <a href="solucoes_smartphones.html#lento1">Limpar o armazenamento.</a>
+            <a href="solucoes_smartphones.html#lento2"> Guardar a informação desnecessária noutro local.</a>
+            </div><br/><br/>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdowns('d2')" class="dropbtn">Pouca duração de bateria.</button>
+            <div id="d2" class="dropdown-content">
+            <a href="solucoes_smartphones.html#bat1">Diminuir o brilho.</a>
+            <a href="solucoes_smartphones.html#bat2"> Ativar o modo de poupança.</a>
+            </div><br/><br/>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdowns('d3')" class="dropbtn">Armazenamento cheio.</button>
+            <div id="d3" class="dropdown-content">
+            <a href="solucoes_smartphones.html#arm1">Limpeza de ficheiros.</a>
+            <a href="solucoes_smartphones.html#arm2">Transferência de ficheiros.</a>
+            </div><br/><br/>
+        </div>
+        
+        
+        <script type="text/javascript" src="javaScript.js"></script>
+    </body>
+    
+    <footer>
+    Made by Bruno e Gonçalo ©  </footer>
+</html>

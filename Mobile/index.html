@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <base href="file:///C:/Users/hlbgo/OneDrive/School/Licenciatura/TI1/Website/Pag/index.html">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title> Bruno e Gonçalo Tips </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">  
+        <link rel="stylesheet" type="text/css" href="stylesheetmodal.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheetmobile.css">
+    </head>
+   
+    <body class="w3-container w3-center w3-animate-bottom">
+        <div class="main">
+            
+            <div class="topnav">
+              <a href="index.html" class="active" style="text-align: left;"><img src="images/logo_no_border.png" style="width: 4%; "></a>
+              <!-- Navigation links (hidden by default) -->
+              <div id="myLinks">
+                <a href="computadores.html">Computadores</a>
+                <a href="smartphones.html">Smartphones</a>
+                <a href="sobre.html">Sobre</a>
+                <a onclick="darkmode()" href="javascript:void(0)">Modo Noturno</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+                <i class="fa fa-bars"></i>
+              </a> 
+            </div>
+            
+            <h1><b>Ajuda basica aqui!</b></h1>
+            <div class="text">
+            Neste Website irá encontrar como resolver os seus problemas nos seus dispositivos sem necessitar de intervenção de um técnico!
+            </div>
+            <br />
+            <br />
+            <br />
+            <hr >
+        </div>
+        <br />
+        <br />
+        <div class="info">
+            <h2>Como Usar?</h2>
+            <br />
+            <br />
+            <p style="text-align: center;"><b>Selecione o tipo de dispositivo onde tem problemas:</b></p><br>
+            <img src="images/1passo.png" id="passo1" alt="1º passo"><br/><br/>
+            <p style="text-align: center;"><b>Selecione o problema mais similar ao seu:</b></p><br>
+            <img src="images/2passo.png" id="passo2" alt="2º passo"><br/><br/>
+            <p style="text-align: center;"><b>Siga os passos :D</b></p><br>
+            <img src="images/3passo.png" id="passo3" alt="3º passo"><br/><br/>
+            <br />
+            <br />
+            <br />
+            <hr >
+        </div>
+
+        <div class="form">
+            <h2>Contacte-nos!</h2><br />
+            <div class="text2">
+                Em caso de alguma sugestão ou informação importante relacionada com o website utilize este metodo para nos contactar.<br /></div>
+            
+            <textarea id="sug" name="sugestões" class="sug" rows="20" cols="125" placeholder="Texto: "></textarea><br />
+            <input type="email" name="email" placeholder="Email:" class="email" id="email">
+            <input type="text" name="nome" placeholder="Nome:" class="nome"id="nome">
+            <input type="button" value="Confirmar" class="submit" id="submit" onclick="alerta()">
+        </div>
+        
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>        
+
+        <script type="text/javascript" src="modal.js"></script>
+        <script type="text/javascript" src="javaScript.js"></script>
+        <script type="text/javascript" src="javaScriptmobile.js"></script>
+    </body>
+    <footer>
+    Made by Bruno e Gonçalo ©  </footer>
+</html>
